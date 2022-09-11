@@ -1,0 +1,13 @@
+REPOSITORY                   TAG       IMAGE ID       CREATED              SIZE
+mr_axel777/ubuntu-tmp-file   latest    13c8854a3420   About a minute ago   63.1MB
+nginx                        latest    b692a91e4e15   2 weeks ago          142MB
+ubuntu                       18.04     8d5df41c547b   2 weeks ago          63.1MB
+hello-world                  latest    feb5d9fea6a5   10 months ago        13.3kB
+
+---Difference between docker inspect image/container
+
+The differences are:
+
+1. Container contains volumes located in /var/lib/docker
+2. Container contains networks created
+
